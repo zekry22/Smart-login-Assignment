@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/signup.css">
+</head>
+<body>
+    <div class="signup-container">
+        <h1> Smart Login System </h1>
+        <form id="signupForm" onsubmit="return signup()">
+            <input id="input1" class="form-control my-3" placeholder="Enter your username" type="text">
+            <input id="input2" class="form-control my-3" placeholder="Enter your email" type="email">
+            <input id="input3" class="form-control my-3" placeholder="Enter your password" type="password">
+            <button type="submit" class="btn btn-outline-info w-100 my-3">sign up</button>
+        </form>
+        <p>Don't have an account? <a href="login.html"> Login </a></p>
+    </div> 
+
+
+    <script src="js/signup.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        function navigateToLogin() {
+            window.location.href = 'login.html';
+        }
+    </script>
+</body>
+</html>

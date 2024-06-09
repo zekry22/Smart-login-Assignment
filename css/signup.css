@@ -1,0 +1,50 @@
+
+
+
+body {
+    background-color: #243640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.signup-container {
+    background-color: #243640;
+    padding: 70px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+h1 {
+    color: #16a2b8;
+}
+
+.signup-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #16a2b8;
+    border-radius: 7px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #16a2b8;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+}
+
+a {
+    color: #fff;
+    padding-left: 8px;
+}
+p{
+    color: #fff;
+}
